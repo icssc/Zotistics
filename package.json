@@ -9,7 +9,7 @@
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "dev": "sst bind vite dev",
     "format": "prettier --write .",
-    "postinstall": "husky install && prisma generate && svelte-kit sync",
+    "postinstall": "husky install && svelte-kit sync",
     "lint": "eslint --quiet --fix .",
     "preview": "vite preview",
     "sst:deploy": "sst deploy",
@@ -58,7 +58,7 @@
     "svelte-kit-sst": "2.36.3",
     "tailwindcss": "^3.4.1",
     "tslib": "2.6.2",
-    "typescript": "^5.2.0",
+    "typescript": "5.2.x",
     "vite": "4.5.0",
     "vitest": "0.34.6"
   }
